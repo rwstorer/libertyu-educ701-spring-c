@@ -19,3 +19,19 @@
     - `pandoc --from=markdown --to=docx --csl=apa.csl --bibliography=references.bib -o paper.docx`
     - `pandoc --from=markdown --pdf-engine=xelatex --csl=apa.csl --bibliography=references.bib -o paper.pdf`
 9. Update the output document as needed
+
+## Snippets
+
+- apap → Tab → [@smith2020]
+- apan → Tab → @smith2020
+- apaq → Tab → "quoted text" [@smith2020, p. 42]
+- apa1 → Tab → # Heading Title
+- apatable → Tab → APA‑formatted table scaffold
+- apacover → Tab → full Liberty‑style APA metadata block
+- apafig → Tab → the figure (see below)
+- apamp → Tab → a multi-paragraph list item
+- apadiscuss → Tab → a Liberty discussion board post format for Canvas
+- apareply → Tab → a Liberty dicscussion board reply format for Canvas
+
+![Alt text](./figure.png)
+*Figure 1.* Title of the figure.
