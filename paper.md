@@ -2,6 +2,9 @@
 title: "Testing Zotero and Export to DOCX"
 author: "Ray Storer"
 date: "2026-02-10"
+institution: "Liberty University"
+course: "EDUC 701: Advanced Learning"
+instructor: "Dr. idunno"
 abstract: |
   Write your abstract here. It should be a single paragraph summarizing the paper.
 bibliography: references.bib
