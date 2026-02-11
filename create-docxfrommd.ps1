@@ -5,4 +5,4 @@ param(
   [string]$outputFileName
 )
 
-pandoc "$($sourceFileName)" --from=markdown --to=docx --csl=apa.csl --bibliography=references.bib --filter pandoc-crossref --citeproc -o "$($outputFileName)"
+pandoc "$($sourceFileName)" --from=markdown --to=docx --csl=apa.csl --bibliography=references.bib --filter pandoc-crossref --citeproc --reference-doc=custom-reference.docx -o "$($outputFileName)"
