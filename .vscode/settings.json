@@ -1,0 +1,8 @@
+{
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "markdown.preview.breaks": true,
+  "markdown.preview.doubleClickToSwitchToEditor": true,
+  "markdown.extension.toc.updateOnSave": true,
+  "cSpell.language": "en-US"
+}
