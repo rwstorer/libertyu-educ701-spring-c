@@ -1,0 +1,229 @@
+{
+  // -----------------------------
+  // APA CITATION SNIPPETS
+  // -----------------------------
+
+  "APA Parenthetical Citation": {
+    "prefix": "apap",
+    "body": [
+      "[@${1:citekey}]"
+    ],
+    "description": "Insert APA parenthetical citation"
+  },
+
+  "APA Narrative Citation": {
+    "prefix": "apan",
+    "body": [
+      "@${1:citekey}"
+    ],
+    "description": "Insert APA narrative citation"
+  },
+
+  "APA Multiple Parenthetical Citations": {
+    "prefix": "apam",
+    "body": [
+      "[@${1:citekey1}; @${2:citekey2}]"
+    ],
+    "description": "Insert multiple APA parenthetical citations"
+  },
+
+  "APA Quotation With Citation": {
+    "prefix": "apaq",
+    "body": [
+      "\"${1:quoted text}\" [@${2:citekey}, p. ${3:page}]"
+    ],
+    "description": "Insert APA quotation with page number"
+  },
+
+  "APA Block Quote With Citation": {
+    "prefix": "apabq",
+    "body": [
+      "> ${1:block quote text}",
+      "> ",
+      "> [@${2:citekey}, p. ${3:page}]"
+    ],
+    "description": "Insert APA block quote with citation"
+  },
+
+  // -----------------------------
+  // APA HEADING SNIPPETS
+  // -----------------------------
+
+  "APA Heading Level 1": {
+    "prefix": "apa1",
+    "body": [
+      "# ${1:Heading Title}"
+    ],
+    "description": "Insert APA Level 1 heading"
+  },
+
+  "APA Heading Level 2": {
+    "prefix": "apa2",
+    "body": [
+      "## ${1:Heading Title}"
+    ],
+    "description": "Insert APA Level 2 heading"
+  },
+
+  "APA Heading Level 3": {
+    "prefix": "apa3",
+    "body": [
+      "### ${1:Heading Title}"
+    ],
+    "description": "Insert APA Level 3 heading"
+  },
+
+  // -----------------------------
+  // APA TABLE SNIPPETS
+  // -----------------------------
+
+  "APA Table": {
+    "prefix": "apatable",
+    "body": [
+      "Table ${1:number}",
+      "",
+      "${2:Table Title}",
+      "",
+      "| ${3:Column 1} | ${4:Column 2} | ${5:Column 3} |",
+      "|--------------|--------------|--------------|",
+      "| ${6:Value}   | ${7:Value}   | ${8:Value}   |",
+      "",
+      "*Note.* ${9:Table note here.}"
+    ],
+    "description": "Insert APA-style table structure"
+  },
+
+  // -----------------------------
+  // ANNOTATED BIBLIOGRAPHY ENTRY
+  // -----------------------------
+
+  "APA Annotated Bibliography Entry": {
+    "prefix": "apaannot",
+    "body": [
+      "[@${1:citekey}]",
+      "",
+      "**Summary.** ${2:Write a brief summary of the source.}",
+      "",
+      "**Evaluation.** ${3:Evaluate the credibility, strengths, and weaknesses.}",
+      "",
+      "**Reflection.** ${4:Explain how this source fits into your research.}"
+    ],
+    "description": "Insert APA annotated bibliography entry"
+  },
+{
+  // -----------------------------
+  // APA FIGURE CAPTION
+  // -----------------------------
+
+  "APA Figure Caption": {
+    "prefix": "apafig",
+    "body": [
+      "![${1:Alt text describing the figure}](./${2:figure-file.png})",
+      "",
+      "*Figure ${3:number}.* ${4:Title of the figure.}"
+    ],
+    "description": "Insert APA-style figure with caption"
+  },
+
+  // -----------------------------
+  // MULTI-PARAGRAPH LIST ITEM
+  // -----------------------------
+
+  "APA Multi-Paragraph List Item": {
+    "prefix": "apamp",
+    "body": [
+      "1. ${1:First paragraph of the list item.}",
+      "",
+      "    ${2:Second paragraph indented under the same list item.}",
+      "",
+      "    ${3:Optional third paragraph.}"
+    ],
+    "description": "Insert a multi-paragraph list item formatted for APA Markdown"
+  },
+
+  // -----------------------------
+  // LIBERTY DISCUSSION BOARD POST
+  // -----------------------------
+
+  "Liberty Discussion Board Post": {
+    "prefix": "apadiscuss",
+    "body": [
+      "---",
+      "title: \"${1:Discussion Board Thread Title}\"",
+      "author: \"${2:Your Name}\"",
+      "date: \"${3:Date}\"",
+      "course: \"${4:Course Code}\"",
+      "professor: \"${5:Professor Name}\"",
+      "bibliography: references.bib",
+      "csl: apa.csl",
+      "---",
+      "",
+      "# Thread: ${1:Discussion Board Thread Title}",
+      "",
+      "${6:Write your initial post here.}",
+      "",
+      "## References",
+      "",
+      "[@${7:citekey}]"
+    ],
+    "description": "Insert Liberty University APA-style discussion board post template"
+  }
+},
+
+{
+  "Liberty Discussion Board Reply": {
+    "prefix": "apareply",
+    "body": [
+      "---",
+      "title: \"Reply to ${1:Student Name}\"",
+      "author: \"${2:Your Name}\"",
+      "date: \"${3:Date}\"",
+      "course: \"${4:Course Code}\"",
+      "professor: \"${5:Professor Name}\"",
+      "bibliography: references.bib",
+      "csl: apa.csl",
+      "---",
+      "",
+      "## Reply to ${1:Student Name}",
+      "",
+      "${6:Write your reply here, engaging directly with the student's key points.}",
+      "",
+      "You made an insightful point about ${7:topic}. I especially appreciated your observation that ${8:specific detail}. This aligns with research showing that ${9:brief scholarly connection} [@${10:citekey}].",
+      "",
+      "${11:Optional additional paragraph expanding your analysis or adding a contrasting perspective.}",
+      "",
+      "## References",
+      "",
+      "[@${12:citekey}]"
+    ],
+    "description": "Insert Liberty University APA-style discussion board reply template"
+  }
+},
+
+  // -----------------------------
+  // LIBERTY UNIVERSITY COVER PAGE
+  // -----------------------------
+
+  "Liberty APA Cover Page": {
+    "prefix": "apacover",
+    "body": [
+      "---",
+      "title: \"${1:Paper Title}\"",
+      "author: \"${2:Your Name}\"",
+      "date: \"${3:Date}\"",
+      "course: \"${4:Course Code}\"",
+      "professor: \"${5:Professor Name}\"",
+      "institution: \"Liberty University\"",
+      "abstract: |",
+      "  ${6:Write your abstract here.}",
+      "bibliography: references.bib",
+      "csl: apa.csl",
+      "---",
+      "",
+      "# Introduction",
+      "",
+      "${7:Start writing here.}"
+    ],
+    "description": "Insert Liberty University APA-style cover page metadata"
+  }
+}
