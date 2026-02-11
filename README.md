@@ -1,6 +1,4 @@
-# A Template for My Liberty University Writing Assignments
-
-I will use this as a template to make creating repos for each of my classes simpler
+# Education 701 - Advanced Learning Theory
 
 ## Workflow
 
