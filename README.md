@@ -1,4 +1,4 @@
-# Education 701 - Advanced Learning Theory
+# Using Markdown, Pandoc, and Zotero
 
 ## Workflow
 
